@@ -33,7 +33,7 @@ public class App {
 
         switch (userChoice) {
             case GREET:
-                Engine.start("Greet", new String[0], new String[0]);
+                Engine.meetUser();
                 break;
             case EVEN:
                 Even.play();
